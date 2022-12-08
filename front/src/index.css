@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg {
+    pointer-events: none;
+}
+
+.dark-mode {
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+.dark-mode input {
+    background-color: rgb(34, 34, 34);
+    border: 1px solid transparent;
+}
+.dark-card {
+    background-color: #121212;
+}
+
+.users-table::-webkit-scrollbar {
+    width: 7px;
+}
+
+.users-table::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.users-table::-webkit-scrollbar-thumb {
+    background-color: rgb(138, 138, 138);
+    border-radius: 4px;
+}
